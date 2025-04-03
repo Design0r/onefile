@@ -1,0 +1,10 @@
+[package]
+name = "onefile"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+clap = { version = "4.5.28", features = ["derive"] }
+clipboard = "0.5.0"
+walkdir = "2.5.0"
